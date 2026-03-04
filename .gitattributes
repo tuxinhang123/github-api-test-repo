@@ -1,0 +1,12 @@
+# 强制将仓库主语言设为Python（屏蔽其他语言的统计）
+*.js linguist-language=Python
+*.html linguist-language=Python
+*.css linguist-vendored=true  # 标记CSS文件为第三方文件，不参与语言统计
+
+# 另一个示例：强制设为JavaScript
+# *.py linguist-language=JavaScript
+# *.md linguist-vendored=true  # 屏蔽Markdown文件统计
+
+# 通用规则：只统计src目录下的Python文件
+# * linguist-vendored=true
+# src/*.py linguist-vendored=false

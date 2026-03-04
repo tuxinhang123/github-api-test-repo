@@ -1,6 +1,5 @@
 # 强制将仓库主语言设为Python（屏蔽其他语言的统计）
 *.js linguist-language=Python
-*.html linguist-language=Python
 *.css linguist-vendored=true  # 标记CSS文件为第三方文件，不参与语言统计
 
 # 另一个示例：强制设为JavaScript
